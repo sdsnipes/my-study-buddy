@@ -1,0 +1,140 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #30302E;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  color: #66c2a5;
+}
+
+.todo-list {
+  display: inline-block;
+  width: 49%;
+  height: 700px;
+  border-right: 1px solid black;
+  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todo-item-low {
+  width: 90%;
+  padding: 5px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #66c2a5;
+}
+
+.todo-item-med {
+  width: 90%;
+  padding: 5px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #8da0cb;
+}
+
+.todo-item-high {
+  width: 90%;
+  padding: 5px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #fc8d62;
+}
+
+.alignleft {
+  float: left;
+}
+
+.alignright {
+  float: right;
+}
+
+.legend { 
+  list-style: none;
+  color: #000000;
+}
+.legend li {
+  float: left; 
+  margin-right: 10px; 
+}
+.legend span {
+  border: 1px solid #ccc; 
+  float: left; 
+  width: 15px; 
+  height: 15px; 
+  margin: 2px;
+}
+
+.legend .legend-key-low {
+  background-color: #66c2a5;
+}
+.legend .legend-key-med { 
+  background-color: #8da0cb; 
+}
+.legend .legend-key-high { 
+  background-color: #fc8d62; 
+}
+
