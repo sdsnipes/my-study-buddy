@@ -1,7 +1,7 @@
 <?php
-    $dbhost = 'localhost';
-    $dbuser = 'root';
-    $dbpass = '';
+    $dbhost = '@hostname';
+    $dbuser = '@username';
+    $dbpass = '@password';
     
     $db = 'studybuddy_db';
     $conn = mysql_connect($dbhost,$dbuser,$dbpass);
